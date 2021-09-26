@@ -11,7 +11,7 @@ public class TwoPowerTable {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int powerUntil;
-        String fileName = "TwoPowerTable.htmlS";
+        String fileName = "TwoPowerTable.html"; //Setting the file to the variable filename
         
         powerUntil = input.nextInt();
         int value; //Holding the value of i^2
@@ -35,7 +35,7 @@ public class TwoPowerTable {
             out.write("</table>\n");
             out.write("</body></html>\n");
             
-            out.close();
+            out.close(); //Closing the file
             
         }
         catch (IOException e) { //Need a catch statement just incase 
